@@ -19,7 +19,6 @@
  	</style>
 	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 	<script src="js-markdown-extra.js"></script>
-	<script src="app.js"></script>
 	<script src="https://raw.githubusercontent.com/joubertredrat/bootstrap-maxlength/master/src/bootstrap-maxlength.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){
@@ -27,10 +26,6 @@
 			    alwaysShow: true,
 			    validate: false,
 			    allowOverMax: true
-			});
-
-			$('#result').bind('keypress', function(){
-				$('#text_preview').html(textile($('#result').val()));
 			});
 
 			$('.syntax-builder').bind('keyup', MarkdownBuild);
@@ -49,7 +44,6 @@
 
 			var markdown = pname+purl+pdesc+' ('+(pdemo ? pdemo+', '+psrc : psrc)+') '+lic+' '+lang;
 			$('#result').val(markdown);
-			//$('#text_preview').html(textile(markdown));
 			$('#text_preview').html(Markdown(markdown));
 		}
 	</script>
@@ -90,7 +84,7 @@
         <div class="col-xs-6">
 		    <div class="form-group">
 				<label for="result">Result</label>
-				<textarea rows="6" name="result" class="form-control" id="result"></textarea>
+				<textarea rows="6" name="result" class="form-control" id="result" readonly="readonly"></textarea>
 		    </div>
 		    <p><strong>Preview</strong></p>
 		    <div id="text_preview" class="panel"></div>
