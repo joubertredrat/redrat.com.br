@@ -1,95 +1,144 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Awesome Selfhosted Form</title>
- 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
- 	<style type="text/css">
- 		textarea{
- 			resize: none;
- 		}
-		#text_preview {
-		    color: #444;
-		    font-size: 13px;
-		    line-height: 1.4;
-		    padding: 0 1em 4px;
-		}
-		#text_preview {
-		    overflow: auto;
-		} 		
- 	</style>
-	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-	<script src="js-markdown-extra.js"></script>
-	<script src="bootstrap-maxlength.js"></script>
-	<script type="text/javascript">
-		$(document).ready(function(){
-			$('#project-description').maxlength({
-			    alwaysShow: true,
-			    validate: false,
-			    allowOverMax: true
-			});
+    <title>Awesome Selfhosted Form</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/css/select2.min.css" rel="stylesheet" />
+    <style type="text/css">
+        textarea{
+            resize: none;
+        }
+        #project-license, #project-language {
+            width: 100%;
+        }
+        #preview {
+            color: #444;
+            font-size: 13px;
+            line-height: 1.4;
+            padding: 0 1em 4px;
+        }
+        #preview {
+            overflow: auto;
+        }
+        .more {
+            float: right;
+            color: grey;
+            font-weight: bold;
+        }
+        .footer {
+            margin-bottom: 20px;
+        }   
+    </style>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/js/select2.min.js"></script>
+    <script src="js-markdown-extra.js"></script>
+    <script src="bootstrap-maxlength.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#project-description').maxlength({
+                alwaysShow: true,
+                validate: false,
+                allowOverMax: true
+            });
 
-			$('.syntax-builder').bind('keyup', MarkdownBuild);
+            $('.syntax-builder').bind('keyup', markdownBuild);
+            $('#project-license, #project-language').bind('change', markdownBuild);
+            $("#project-license").select2();
+            $("#project-language").select2({
+                tags: true
+            });
 
-			MarkdownBuild();
-		});
+            loadLicenses();
+            loadLanguages();
+            markdownBuild();
+        });
 
-		function MarkdownBuild() {
-			var pname = '['+($('#project-name').val() || 'My awesome selfhosted project')+']';
-			var purl = '('+($('#project-url').val() || 'https://myproject.is.awesome')+')';
-			var pdesc = ' - '+($('#project-description').val() || 'Short description');
-			var pdemo = $('#project-demo').val() ? '[Demo]('+($('#project-demo').val())+')' : '';
-			var psrc = '[Source code]('+($('#project-source').val() || 'https://github.com/myproject/is-awesome')+')';
-			var lic = '`'+($('#project-license').val() || 'License')+'`';
-			var lang = '`'+($('#project-language').val() || 'Language')+'`';
+        function markdownBuild() {
+            var pname = '['+($('#project-name').val() || 'My awesome selfhosted project')+']';
+            var purl = '('+($('#project-url').val() || 'https://myproject.is.awesome')+')';
+            var pdesc = ' - '+($('#project-description').val() || 'Short description');
+            var pdemo = $('#project-demo').val() ? '[Demo]('+($('#project-demo').val())+')' : '';
+            var psrc = '[Source code]('+($('#project-source').val() || 'https://github.com/myproject/is-awesome')+')';
+            var lic = '`'+($('#project-license').val() || 'License')+'`';
+            var lang = '`'+($('#project-language').val() || 'Language')+'`';
 
-			var markdown = pname+purl+pdesc+' ('+(pdemo ? pdemo+', '+psrc : psrc)+') '+lic+' '+lang;
-			$('#result').val(markdown);
-			$('#text_preview').html(Markdown(markdown));
-		}
-	</script>
+            var markdown = pname+purl+pdesc+' ('+(pdemo ? pdemo+', '+psrc : psrc)+') '+lic+' '+lang;
+            $('#result').val(markdown);
+            $('#preview').html(Markdown(markdown)).find('a').attr('target', '_blank');
+        }
+
+        function loadLicenses() {
+            $.getJSON('licenses.json', function(data){
+                $.each(data, function(key, value) {
+                    $('#project-license').append('<option value="'+key+'">'+key+' - '+value+'</option>');
+                });
+            });
+        }
+
+        function loadLanguages() {
+            $.getJSON('languages.json', function(data){
+                $.each(data, function(key, value) {
+                    $('#project-language').append('<option value="'+key+'">'+value+'</option>');
+                });
+            });
+        }
+    </script>
 </head>
 <body>
 <div class="container">
     <div class="row">
+        <h3><a href="https://github.com/Kickball/awesome-selfhosted" target="_blank">Awesome-Selfhosted</a> form <small>Hey! I'm still beta</small></h3>
+        <p>This form can help you to open issue or edit file to make pull request on <a href="https://github.com/Kickball/awesome-selfhosted" target="_blank">Awesome-Selfhosted</a> repository <a href="https://github.com/Kickball/awesome-selfhosted#contributing" target="_blank">with their syntax</a> for links. If you prefer, you can help they directly on the repository.</p>
+        <hr/>
+    </div>
+    <div class="row">
         <div class="col-xs-6">
-		    <div class="form-group">
-				<label for="project-name">Project name</label>
-				<input type="text" name="project-name" class="form-control syntax-builder" id="project-name" placeholder="My awesome selfhosted project">
-		    </div>
-		    <div class="form-group">
-				<label for="project-url">Project url</label>
-				<input type="url" name="project-url" class="form-control syntax-builder" id="project-url" placeholder="https://myproject.is.awesome">
-		    </div>
-		    <div class="form-group">
-				<label for="project-description">Project description</label>
-				<textarea rows="4" name="project-description" class="form-control syntax-builder" id="project-description" placeholder="Project name" maxlength="250"></textarea>
-		    </div>
-		    <div class="form-group">
-				<label for="project-demo">Project demo</label>
-				<input type="text" name="project-demo" class="form-control syntax-builder" id="project-demo" placeholder="https://demo.myproject.is.awesome">
-		    </div>
-		    <div class="form-group">
-				<label for="project-source">Project source</label>
-				<input type="url" name="project-source" class="form-control syntax-builder" id="project-source" placeholder="https://github.com/myproject/is-awesome">
-		    </div>
-		    <div class="form-group">
-				<label for="project-license">License</label>
-				<input type="text" name="project-license" class="form-control syntax-builder" id="project-license" placeholder="GPLv2">
-		    </div>
-			<div class="form-group">
-				<label for="project-language">Language</label>
-				<input type="text" name="project-language" class="form-control syntax-builder" id="project-language" placeholder="PHP">
-		    </div>
+            <div class="form-group input-group-sm">
+                <label for="project-name">Project name</label>
+                <input type="text" name="project-name" class="form-control syntax-builder" id="project-name" placeholder="My awesome selfhosted project">
+            </div>
+            <div class="form-group input-group-sm">
+                <label for="project-url">Project url</label>
+                <input type="url" name="project-url" class="form-control syntax-builder" id="project-url" placeholder="https://myproject.is.awesome">
+            </div>
+            <div class="form-group">
+                <label for="project-description">Project description</label>
+                <textarea rows="4" name="project-description" class="form-control syntax-builder" id="project-description" placeholder="Project description" maxlength="250"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="result">Markdown result</label>
+                <textarea rows="6" name="result" class="form-control" id="result" readonly="readonly"></textarea>
+            </div>
         </div>
         <div class="col-xs-6">
-		    <div class="form-group">
-				<label for="result">Result</label>
-				<textarea rows="6" name="result" class="form-control" id="result" readonly="readonly"></textarea>
-		    </div>
-		    <p><strong>Preview</strong></p>
-		    <div id="text_preview" class="panel"></div>
+            <div class="form-group input-group-sm">
+                <label for="project-demo">Project demo</label>
+                <input type="text" name="project-demo" class="form-control syntax-builder" id="project-demo" placeholder="https://demo.myproject.is.awesome">
+            </div>
+            <div class="form-group input-group-sm">
+                <label for="project-source">Project source</label>
+                <input type="url" name="project-source" class="form-control syntax-builder" id="project-source" placeholder="https://github.com/myproject/is-awesome">
+            </div>
+            <div class="form-group input-group-sm">
+                <label for="project-license">License </label><small class="more">Your license isn't here? <a href="https://github.com/joubertredrat/joubertredrat.github.io/issues" target="_blank">Open issue</a> or <a href="https://github.com/joubertredrat/joubertredrat.github.io/tree/master/awesome-selfhosted-form" target="_blank">make pull request</a></small>
+                <select id="project-license">
+                    <option value="License">Select License</option>
+                </select>
+            </div>
+            <div class="form-group input-group-sm">
+                <label for="project-language">Language</label><small class="more">Your prefered language isn't here? <a href="https://github.com/joubertredrat/joubertredrat.github.io/issues" target="_blank">Open issue</a> or <a href="https://github.com/joubertredrat/joubertredrat.github.io/tree/master/awesome-selfhosted-form" target="_blank">make pull request</a></small>
+                <select id="project-language">
+                    <option value="Language">Select Language</option>
+                </select>
+            </div>
+            <p><strong>Markdown preview</strong></p>
+            <div id="preview"></div>
         </div>
     </div>
+    <div class="row">
+        <hr/>
+        <p class="footer">GitHub + Opensource = So much love!</p>
+    </div>    
 </div>
 </body>
 </html>
