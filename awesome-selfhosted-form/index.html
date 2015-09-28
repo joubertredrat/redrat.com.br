@@ -2,37 +2,15 @@
 <html>
 <head>
     <title>Awesome Selfhosted Form</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/css/select2.min.css" rel="stylesheet" />
-    <style type="text/css">
-        textarea{
-            resize: none;
-        }
-        #project-license, #project-language {
-            width: 100%;
-        }
-        #preview {
-            color: #444;
-            font-size: 13px;
-            line-height: 1.4;
-            padding: 0 1em 4px;
-        }
-        #preview {
-            overflow: auto;
-        }
-        .more {
-            float: right;
-            color: grey;
-            font-weight: bold;
-        }
-        .footer {
-            margin-bottom: 20px;
-        }   
-    </style>
+    <link href="form.css" rel="stylesheet" />
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/js/select2.min.js"></script>
     <script src="js-markdown-extra.js"></script>
     <script src="bootstrap-maxlength.js"></script>
+    <script src="bootbox.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function(){
             $('#project-description').maxlength({
@@ -42,6 +20,7 @@
             });
 
             $('.syntax-builder').bind('keyup', markdownBuild);
+            $('#copy-markdown').bind('click', copyToClipboard);
             $('#project-license, #project-language').bind('change', markdownBuild);
             $("#project-license").select2();
             $("#project-language").select2({
@@ -82,6 +61,18 @@
                 });
             });
         }
+
+        function copyToClipboard() {
+            var $temp = $("<input>");
+            $("body").append($temp);
+            $temp.val($('#result').val()).select();
+            document.execCommand("copy");
+            $temp.remove();
+            bootbox.dialog({
+                message: "Copied to clipboard: "+$('#result').val(),
+                title: "Done"
+            });
+        }        
     </script>
 </head>
 <body>
@@ -106,7 +97,7 @@
                 <textarea rows="4" name="project-description" class="form-control syntax-builder" id="project-description" placeholder="Project description" maxlength="250"></textarea>
             </div>
             <div class="form-group">
-                <label for="result">Markdown result</label>
+                <label for="result">Markdown result</label> <button type="button" id="copy-markdown" class="btn btn-default btn-xs">Copy it!</button>
                 <textarea rows="6" name="result" class="form-control" id="result" readonly="readonly"></textarea>
             </div>
         </div>
@@ -138,7 +129,7 @@
     <div class="row">
         <hr/>
         <p class="footer">GitHub + Opensource = So much love!</p>
-    </div>    
+    </div>
 </div>
 </body>
 </html>
