@@ -57,7 +57,7 @@
         function loadLanguages() {
             $.getJSON('languages.json', function(data){
                 $.each(data, function(key, value) {
-                    $('#project-language').append('<option value="'+key+'">'+value+'</option>');
+                    $('#project-language').append('<option value="'+value+'">'+value+'</option>');
                 });
             });
         }
