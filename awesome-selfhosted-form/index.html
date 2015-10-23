@@ -2,15 +2,17 @@
 <html>
 <head>
     <title>Awesome Selfhosted Form</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/css/select2.min.css" rel="stylesheet" />
-    <link href="form.css" rel="stylesheet" />
-    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/js/select2.min.js"></script>
-    <script src="js-markdown-extra.js"></script>
-    <script src="bootstrap-maxlength.js"></script>
-    <script src="bootbox.min.js"></script>
+    <meta name="description" content="Awesome Selfhosted Form" />
+    <meta name="author" content="Joubert RedRat" />
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous" />
+    <link href="assets/css/select2.min.css" rel="stylesheet" rel="stylesheet" />
+    <link href="assets/css/form.css" rel="stylesheet" />
+    <script src="assets/js/jquery-1.11.3.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/select2.min.js"></script>
+    <script src="assets/js/js-markdown-extra.js"></script>
+    <script src="assets/js/bootstrap-maxlength.js"></script>
+    <script src="assets/js/bootbox.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function(){
             $('#project-description').maxlength({
@@ -32,6 +34,7 @@
             markdownBuild();
         });
 
+        // Build markdown syntax for input on selfhosted repo
         function markdownBuild() {
             var pname = '['+($('#project-name').val() || 'My awesome selfhosted project')+']';
             var purl = '('+($('#project-url').val() || 'https://myproject.is.awesome')+')';
@@ -46,22 +49,25 @@
             $('#preview').html(Markdown(markdown)).find('a').attr('target', '_blank');
         }
 
+        // Load Licenses from licenses.json
         function loadLicenses() {
-            $.getJSON('licenses.json', function(data){
+            $.getJSON('json-data/licenses.json', function(data) {
                 $.each(data, function(key, value) {
                     $('#project-license').append('<option value="'+key+'">'+key+' - '+value+'</option>');
                 });
             });
         }
 
+        // Load Licenses from languages.json
         function loadLanguages() {
-            $.getJSON('languages.json', function(data){
+            $.getJSON('json-data/languages.json', function(data){
                 $.each(data, function(key, value) {
                     $('#project-language').append('<option value="'+value+'">'+value+'</option>');
                 });
             });
         }
 
+        // Copy markdown syntax to clipboard
         function copyToClipboard() {
             var $temp = $("<input>");
             $("body").append($temp);

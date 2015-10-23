@@ -1,0 +1,23 @@
+textarea{
+    resize: none;
+}
+#project-license, #project-language {
+    width: 100%;
+}
+#preview {
+    color: #444;
+    font-size: 13px;
+    line-height: 1.4;
+    padding: 0 1em 4px;
+}
+#preview {
+    overflow: auto;
+}
+.more {
+    float: right;
+    color: grey;
+    font-weight: bold;
+}
+.footer {
+    margin-bottom: 20px;
+}  
