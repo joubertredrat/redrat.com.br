@@ -135,7 +135,7 @@
 <div class="container">
     <div class="row">
         <h3><a href="https://github.com/Kickball/awesome-selfhosted" target="_blank">Awesome-Selfhosted</a> form <small>Hey! I'm still beta</small></h3>
-        <p>This form can help you to open issue or edit file to make pull request on <a href="https://github.com/Kickball/awesome-selfhosted" target="_blank">Awesome-Selfhosted</a> repository <a href="https://github.com/Kickball/awesome-selfhosted#contributing" target="_blank">with their syntax</a> for links. If you prefer, you can help they directly on the repository.</p>
+        <p>This form helps you to get the right syntax to submit a change or an issue to <a href="https://github.com/Kickball/awesome-selfhosted" target="_blank">Awesome-Selfhosted</a> repository <a href="https://github.com/Kickball/awesome-selfhosted#contributing" target="_blank">.</p>
         <hr/>
     </div>
     <div class="row">
@@ -149,13 +149,13 @@
                 <input type="url" name="project-url" class="form-control syntax-builder" id="project-url" placeholder="https://myproject.is.awesome">
             </div>
             <div class="form-group">
-                <label for="project-description">Project description</label> <small>(*)</small>
+                <label for="project-description">Project description (max 250 chars)</label> <small>(*)</small>
                 <textarea rows="4" name="project-description" class="form-control syntax-builder" id="project-description" placeholder="Project description" maxlength="250"></textarea>
             </div>
             <div class="form-group">
                 <label for="result">Markdown result</label>
                 <button type="button" id="copy-markdown" class="btn btn-info btn-xs">Copy it!</button>
-                <button type="button" id="open-issue" class="btn btn-success btn-xs">Open Issue form with this</button>
+                <button type="button" id="open-issue" class="btn btn-success btn-xs">Open issue for this software</button>
                 <button type="button" id="clear-form" class="btn btn-danger btn-xs">Clear form</button>
                 <textarea rows="6" name="result" class="form-control" id="result" readonly="readonly"></textarea>
             </div>
@@ -166,12 +166,12 @@
                 <input type="text" name="project-demo" class="form-control syntax-builder" id="project-demo" placeholder="https://demo.myproject.is.awesome">
             </div>
             <div class="form-group input-group-sm">
-                <label for="project-source">Project source</label> <small>(*)</small>
+                <label for="project-source">Source code location</label> <small>(*)</small>
                 <input type="url" name="project-source" class="form-control syntax-builder" id="project-source" placeholder="https://github.com/myproject/is-awesome">
             </div>
             <div class="form-group input-group-sm">
                 <label for="project-license">License </label> <small>(*)</small>
-                <small class="more">Your license isn't here? <a href="https://github.com/joubertredrat/joubertredrat.github.io/issues" target="_blank">Open issue</a> or <a href="https://github.com/joubertredrat/joubertredrat.github.io/tree/master/awesome-selfhosted-form" target="_blank">make pull request</a></small>
+                <small class="more">Type or enter your license</small>
                 <select id="project-license">
                     <option value="License">Select License</option>
                 </select>
@@ -179,7 +179,7 @@
             </div>
             <div class="form-group input-group-sm">
                 <label for="project-language">Language</label> <small>(*)</small>
-                <small class="more">Your prefered language isn't here? <a href="https://github.com/joubertredrat/joubertredrat.github.io/issues" target="_blank">Open issue</a> or <a href="https://github.com/joubertredrat/joubertredrat.github.io/tree/master/awesome-selfhosted-form" target="_blank">make pull request</a></small>
+                <small class="more">Type or enter the main language/platform</small>
                 <select id="project-language">
                     <option value="Language">Select Language</option>
                 </select>
