@@ -26,10 +26,11 @@
             $('#open-issue').bind('click', openIssueForm);
             $('#clear-form').bind('click', clearForm);
             $('#project-license, #project-language').bind('change', markdownBuild);
-            $("#project-license").select2();
-            $("#project-language").select2({
+            $('#project-license').select2();
+            $('#project-language').select2({
                 tags: true
             });
+            $('#display-non-free-info').hide();
 
             loadLicenses();
             loadLanguages();
@@ -38,6 +39,11 @@
 
         // Build markdown syntax for input on selfhosted repo
         function markdownBuild() {
+            if($('#project-license').val() == 'Non-free')
+                $('#display-non-free-info').fadeIn();
+            else
+                $('#display-non-free-info').fadeOut();
+
             var pname = '['+($('#project-name').val() || 'My awesome selfhosted project')+']';
             var purl = '('+($('#project-url').val() || 'https://myproject.is.awesome')+')';
             var pdesc = ' - '+($('#project-description').val() || 'Short description');
@@ -169,6 +175,7 @@
                 <select id="project-license">
                     <option value="License">Select License</option>
                 </select>
+                <p class="bg-danger" id="display-non-free-info"><small><strong>You have selected a non-free license, this entry should be added to <a href="https://github.com/Kickball/awesome-selfhosted/blob/master/non-free.md" target="_blank">non-free.md</a>.</strong></small></p>
             </div>
             <div class="form-group input-group-sm">
                 <label for="project-language">Language</label> <small>(*)</small>
