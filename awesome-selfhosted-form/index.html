@@ -91,7 +91,7 @@
             markdownBuild();
         }
 
-        // Open Issue form
+        // Open Issue form on GitHub with this markdown
         function openIssueForm() {
             errors = new Array();
             if (!$('#project-name').val())
@@ -109,7 +109,7 @@
 
             if (errors.length > 0) {
                 bootbox.dialog({
-                    message: 'You must fill in the fields before sending to GitHub<br/><ul><li>'+errors.join('</li><li>')+'</li></ul>',
+                    message: 'You must fill in the fields before sending to <a href="https://github.com/Kickball/awesome-selfhosted" target="_blank">Awesome-Selfhosted</a> repository on GitHub<br/><ul><li>'+errors.join('</li><li>')+'</li></ul>',
                     title: 'Almost there',
                     buttons: {
                         danger: {
@@ -135,15 +135,15 @@
     <div class="row">
         <div class="col-xs-6">
             <div class="form-group input-group-sm">
-                <label for="project-name">Project name</label>
+                <label for="project-name">Project name</label> <small>(*)</small>
                 <input type="text" name="project-name" class="form-control syntax-builder" id="project-name" placeholder="My awesome selfhosted project">
             </div>
             <div class="form-group input-group-sm">
-                <label for="project-url">Project url</label>
+                <label for="project-url">Project url</label> <small>(*)</small>
                 <input type="url" name="project-url" class="form-control syntax-builder" id="project-url" placeholder="https://myproject.is.awesome">
             </div>
             <div class="form-group">
-                <label for="project-description">Project description</label>
+                <label for="project-description">Project description</label> <small>(*)</small>
                 <textarea rows="4" name="project-description" class="form-control syntax-builder" id="project-description" placeholder="Project description" maxlength="250"></textarea>
             </div>
             <div class="form-group">
@@ -160,18 +160,18 @@
                 <input type="text" name="project-demo" class="form-control syntax-builder" id="project-demo" placeholder="https://demo.myproject.is.awesome">
             </div>
             <div class="form-group input-group-sm">
-                <label for="project-source">Project source</label>
+                <label for="project-source">Project source</label> <small>(*)</small>
                 <input type="url" name="project-source" class="form-control syntax-builder" id="project-source" placeholder="https://github.com/myproject/is-awesome">
             </div>
             <div class="form-group input-group-sm">
-                <label for="project-license">License </label>
+                <label for="project-license">License </label> <small>(*)</small>
                 <small class="more">Your license isn't here? <a href="https://github.com/joubertredrat/joubertredrat.github.io/issues" target="_blank">Open issue</a> or <a href="https://github.com/joubertredrat/joubertredrat.github.io/tree/master/awesome-selfhosted-form" target="_blank">make pull request</a></small>
                 <select id="project-license">
                     <option value="License">Select License</option>
                 </select>
             </div>
             <div class="form-group input-group-sm">
-                <label for="project-language">Language</label>
+                <label for="project-language">Language</label> <small>(*)</small>
                 <small class="more">Your prefered language isn't here? <a href="https://github.com/joubertredrat/joubertredrat.github.io/issues" target="_blank">Open issue</a> or <a href="https://github.com/joubertredrat/joubertredrat.github.io/tree/master/awesome-selfhosted-form" target="_blank">make pull request</a></small>
                 <select id="project-language">
                     <option value="Language">Select Language</option>
