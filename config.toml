@@ -1,9 +1,9 @@
 baseURL = "https://joubertredrat.github.io/"
 languageCode = "en-us"
-title = "Joubert RedRat Site"
-theme = "ezhil"
-
-copyright = "$currentYear © Joubert RedRat"
+title = "Joubert RedRat"
+theme = "researcher"
 
 [params]
-    subtitle = "Software Engineer, DevOps, Cosplayer, Speaker, Open-source community evangelist"
+    author = "Olivier Roques"
+    description = "Software Engineer, DevOps, Cosplayer, Speaker, Open-source community evangelist"
+    favicon = "/assets/favicon.ico"
