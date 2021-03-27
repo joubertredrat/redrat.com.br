@@ -2,11 +2,15 @@ baseURL = "https://joubertredrat.github.io/"
 languageCode = "en-us"
 title = "Joubert RedRat"
 theme = "researcher"
+enableEmoji = true
+googleAnalytics = ""
 
 [params]
-    author = "Joubert RedRat"
-    description = "Software Engineer, DevOps, Cosplayer, Speaker, Open-source community evangelist"
-    favicon = "assets/favicon/favicon.ico"
+  author = "Joubert RedRat"
+  description = "Software Engineer, DevOps, Cosplayer, Speaker, Open-source community evangelist"
+  favicon = "assets/favicon/favicon.ico"
+  [params.style]
+    pageWidth = "850px"
 
 [permalinks]
   "/" = "/:filename"
