@@ -6,8 +6,8 @@ title = "Joubert RedRat - Resume"
 
 My public resume can be viewed at LinkedIn in links below:
 
-* English: <a href="https://www.linkedin.com/in/joubertredrat/?locale=en_US" target="_blank">https://www.linkedin.com/in/joubertredrat/?locale=en_US</a>
-* Brazilian portuguese: <a href="https://www.linkedin.com/in/joubertredrat/" target="_blank">https://www.linkedin.com/in/joubertredrat/</a>
+* English: https://www.linkedin.com/in/joubertredrat/?locale=en_US
+* Brazilian portuguese: https://www.linkedin.com/in/joubertredrat/
 
 In alternative to LinkedIn, is possble to download resume in PDF version in links below:
 

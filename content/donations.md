@@ -16,4 +16,8 @@ As I saw above, I don't need donations, but other people yes. Then I have this s
 
 If you see some mine library, project, code, article, talks, etc, and think you deserve some financial support, do it! I will receive this and redirect as I saw above and share here the receipt (yes, I like transparency), the place or organization that received this money for you know about that (and help with transation if necessary).
 
-If you have more questions about this, feel free to contact me, my contact options is in [Contact](/contact).
+Other reason for this is that we, as humans, can't do anything alone, if today I'm considered a great Software Engineer or IT Professional, that receive a good salary, that receive much job offers, that do talks, isn't only my conquest, but is from all people that was with me since the zero mark. Help people that needs is a way to honor all help that I received from all.
+
+If you have more questions about this, feel free to contact me, my contact options are in [Contact](/contact).
+
+Today I'm receiving donations at PayPal at link https://www.paypal.com/donate?business=VW96JAJ7E3BHY&currency_code=USD

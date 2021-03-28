@@ -33,6 +33,7 @@ Facebook | https://www.facebook.com/joubertredrat
 Github | https://github.com/joubertredrat
 Gitlab | https://gitlab.com/u/joubertredrat
 Gravatar | https://pt.gravatar.com/joubertredrat
+Instagram | https://www.instagram.com/joubertredrat
 joind.in | https://joind.in/user/joubertredrat
 Matomo Forum | https://forum.matomo.org/u/jobarte
 Matomo Forum | https://forum.matomo.org/u/joubertredrat
@@ -42,6 +43,8 @@ Meetup | http://www.meetup.com/pt-BR/members/163322152
 Packagist | https://packagist.org/users/joubertredrat/
 Pagure | https://pagure.io/user/joubertredrat
 Reddit | https://www.reddit.com/user/joubertredrat/
+Slack PHPMG | https://phpmg.slack.com/team/joubertredrat
+Slack PHPSP | https://phpsp.slack.com/team/joubertredrat
 Slideshare | https://www.slideshare.net/JoubertGuimaresdeAss/
 sourcerer.io | https://sourcerer.io/joubertredrat
 Speaker Deck | https://speakerdeck.com/joubertredrat

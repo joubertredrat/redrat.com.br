@@ -8,15 +8,19 @@ This site is static, then don't have posts engine here, but I really like to sha
 
 ### Posts
 
+All my post and articles are available in English and Brazilian portuguese in [Medium](https://medium.com/@joubertredrat), but I have plans to do new articles at dev.to platform.
+
 ### Talks
+
+All my slides of talks are available in [Speaker Deck](https://speakerdeck.com/joubertredrat).
 
 ##### Automating your deploy with Deployer and Gitlab CI
 
 Talk in Brazilian portuguese: Automatizando seu deploy com Deployer e Gitlab CI
 
-<a href="https://php.locaweb.com.br/" target="_blank">PHP Community Summit 2019</a> - São Paulo - Brazil
+[PHP Community Summit 2019](https://php.locaweb.com.br/) - São Paulo - Brazil
 
-<a href="https://www.youtube.com/watch?v=T3-TePbiqic" target="_blank">https://www.youtube.com/watch?v=T3-TePbiqic</a>
+https://www.youtube.com/watch?v=T3-TePbiqic
 
 ---
 
@@ -24,9 +28,9 @@ Talk in Brazilian portuguese: Automatizando seu deploy com Deployer e Gitlab CI
 
 Talk in Brazilian portuguese: Porque migrar sua aplicação para microserviços?
 
-<a href="https://www.meetup.com/pt-BR/DevOps-Belo-Horizonte/events/253566798/" target="_blank">13º MeetUp DevOps BH</a> - Belo Horizonte - Brazil
+[13º MeetUp DevOps BH](https://www.meetup.com/pt-BR/DevOps-Belo-Horizonte/events/253566798/) - Belo Horizonte - Brazil
 
-<a href="https://www.youtube.com/watch?v=dxWXiZkMZes" target="_blank">https://www.youtube.com/watch?v=dxWXiZkMZes</a>
+https://www.youtube.com/watch?v=dxWXiZkMZes
 
 ---
 
@@ -34,6 +38,6 @@ Talk in Brazilian portuguese: Porque migrar sua aplicação para microserviços?
 
 Talk in Brazilian portuguese: Do Zero Ao Openstack
 
-<a href="https://coletivo.semanadolinux.com.br/" target="_blank">Semana do Linux 2015</a> - Brazil
+[Semana do Linux 2015](https://coletivo.semanadolinux.com.br/) - Brazil
 
-<a href="https://www.youtube.com/watch?v=M8txc5-NGMQ" target="_blank">https://www.youtube.com/watch?v=M8txc5-NGMQ</a>
+https://www.youtube.com/watch?v=M8txc5-NGMQ
