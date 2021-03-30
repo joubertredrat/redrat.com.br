@@ -23,6 +23,7 @@ And here, my other proflies around the world (for me remeber too and don't regis
 Portal | Url
 -----|-------
 AlternativeTo | https://alternativeto.net/user/joubertredrat/
+Ask Openstack | https://ask.openstack.org/en/users/8727/joubert-redrat/
 AssessFirst | https://app.assessfirst.com/_/profile/84ior7f2-joubert-guimaraes-de-assis-redrat
 Bitbucket | https://bitbucket.org/joubertredrat
 Chisel | http://chiselapp.com/user/joubertredrat/
@@ -35,6 +36,7 @@ Gitlab | https://gitlab.com/u/joubertredrat
 Gravatar | https://pt.gravatar.com/joubertredrat
 Instagram | https://www.instagram.com/joubertredrat
 joind.in | https://joind.in/user/joubertredrat
+Launchpad | https://launchpad.net/~joubert-2
 Matomo Forum | https://forum.matomo.org/u/jobarte
 Matomo Forum | https://forum.matomo.org/u/joubertredrat
 Matomo Plugins | https://plugins.matomo.org/developer/joubertredrat
@@ -42,6 +44,7 @@ Medium | https://medium.com/@joubertredrat
 Meetup | http://www.meetup.com/pt-BR/members/163322152
 Packagist | https://packagist.org/users/joubertredrat/
 Pagure | https://pagure.io/user/joubertredrat
+PHP Classes | https://www.phpclasses.org/browse/author/1108402.html
 Reddit | https://www.reddit.com/user/joubertredrat/
 Slack PHPMG | https://phpmg.slack.com/team/joubertredrat
 Slack PHPSP | https://phpsp.slack.com/team/joubertredrat
