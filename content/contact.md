@@ -51,6 +51,7 @@ Slack PHPSP | https://phpsp.slack.com/team/joubertredrat
 Slideshare | https://www.slideshare.net/JoubertGuimaresdeAss/
 sourcerer.io | https://sourcerer.io/joubertredrat
 Speaker Deck | https://speakerdeck.com/joubertredrat
+Speaker Fight | https://speakerfight.com/profile/joubertredrat/
 Stack Overflow | https://pt.stackoverflow.com/users/138711/joubert-redrat
 SymfonyCasts | https://symfonycasts.com/u/joubertredrat
 SymfonyConnect | https://connect.symfony.com/profile/joubertredrat
