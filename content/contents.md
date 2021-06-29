@@ -14,6 +14,26 @@ All my post and articles are available in English and Brazilian portuguese in [M
 
 All my slides of talks are available in [Speaker Deck](https://speakerdeck.com/joubertredrat).
 
+##### Playing with commands on Golang
+
+Talk in Brazilian portuguese: Brincando com comandos no Golang
+
+Golang Santa Catarina community - Remote - Brazil
+
+https://www.youtube.com/watch?v=x89yqY8eJVA
+
+---
+
+##### #tbt of PHP, the evolution of language in last 20 years
+
+Talk in Brazilian portuguese: #tbt do PHP, a evolução da linguagem nos últimos 20 anos
+
+FLISOL Imperatriz 2021 - Remote - Brazil
+
+https://www.youtube.com/watch?v=IRA7w4pk_2Y
+
+---
+
 ##### Automating your deploy with Deployer and Gitlab CI
 
 Talk in Brazilian portuguese: Automatizando seu deploy com Deployer e Gitlab CI
