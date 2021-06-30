@@ -53,6 +53,7 @@ sourcerer.io | https://sourcerer.io/joubertredrat
 Speaker Deck | https://speakerdeck.com/joubertredrat
 Speaker Fight | https://speakerfight.com/profile/joubertredrat/
 Stack Overflow | https://pt.stackoverflow.com/users/138711/joubert-redrat
+StackShare | https://stackshare.io/joubertredrat
 SymfonyCasts | https://symfonycasts.com/u/joubertredrat
 SymfonyConnect | https://connect.symfony.com/profile/joubertredrat
 Trampos | http://trampos.co/joubertredrat
