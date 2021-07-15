@@ -8,7 +8,7 @@ This site is static, then don't have posts engine here, but I really like to sha
 
 ### Posts
 
-All my post and articles are available in English and Brazilian portuguese in [Medium](https://medium.com/@joubertredrat), but I have plans to do new articles at dev.to platform.
+All my post and articles are available in English and Brazilian Portuguese in [Medium](https://medium.com/@joubertredrat), but I have plans to do new articles at [dev.to](https://dev.to/joubertredrat) platform.
 
 ### Talks
 

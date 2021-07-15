@@ -8,13 +8,13 @@ I am eternal trainee of life that works over 10 years ago in technology area, wi
 architecture of software and with specialization in financial systems and DevOps, moreover speaker around
 the world, always receiving and sharing the knowledge with wisdom.
 
-Today I'm heavy user of PHP and golang, but, I'm open to all technologies, because is as I speak, "Senior IT professionals solves the problems using technology".
+Today I'm heavy user of PHP and Golang, but, I'm open to all technologies, because is as I speak, "Senior IT professionals solves the problems using technology".
 
 ### Community
 
 Today I'm one of organizer at [PHPMG](http://phpmg.com/) with other 2 organizers, but I love to interact with other IT communities, then I participate in [PHPSP](https://phpsp.org.br/), [PHPRio](http://php.rio/), [PHP com Rapadura](https://phpcomrapadura.org/), [PHPWomenBR](https://twitter.com/PHPWomenBR), DevOpsBH, GoBH, [Darkmira Tour PHP](https://php.darkmiratour.rocks/), and others.
 
-Always as necessary, I'm in community, then this is my invite to you, always as possible, participate in IT communities too, you can help with participating in chat, open discuss, helping other participants, this help communities, but help you too, because these environments is full of knowledge.
+Always as possible, I'm in community, then this is my invite to you, always as possible, participate in IT communities too, you can help with participating in chat, open discuss, helping other participants, this help communities, but help you too, because these environments is full of knowledge.
 
 ### Why "RedRat"?
 

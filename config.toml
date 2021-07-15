@@ -4,6 +4,67 @@ title = "Joubert RedRat"
 theme = "researcher"
 enableEmoji = true
 googleAnalytics = "G-82P3DH8MYV"
+defaultContentLanguage = "en"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        name = "About"
+        url = "/"
+        weight = 1
+      [[languages.en.menu.main]]
+        name = "Contents"
+        url = "/contents"
+        weight = 2
+      [[languages.en.menu.main]]
+        name = "Resume"
+        url = "/resume"
+        weight = 3
+      [[languages.en.menu.main]]
+        name = "Donations"
+        url = "/donations"
+        weight = 4
+      [[languages.en.menu.main]]
+        name = "Contact"
+        url = "/contact"
+        weight = 5
+      [[languages.en.menu.main]]
+        name = "🇧🇷"
+        url = "/pt-br"
+        weight = 6
+  [languages.pt-br]
+    languageName = "Português Brasileiro"
+    weight = 2
+    [languages.pt-br.params]
+      description = "Software Engineer, DevOps, Cosplayer, Palestrante, Evangelista da comunidade Open Source"
+    [languages.pt-br.menu]
+      [[languages.pt-br.menu.main]]
+        name = "Sobre"
+        url = "/pt-br"
+        weight = 1
+      [[languages.pt-br.menu.main]]
+        name = "Conteúdos"
+        url = "/pt-br/contents"
+        weight = 2
+      [[languages.pt-br.menu.main]]
+        name = "Currículo"
+        url = "/pt-br/resume"
+        weight = 3
+      [[languages.pt-br.menu.main]]
+        name = "Doações"
+        url = "/pt-br/donations"
+        weight = 4
+      [[languages.pt-br.menu.main]]
+        name = "Contato"
+        url = "/pt-br/contact"
+        weight = 5
+      [[languages.pt-br.menu.main]]
+        name = "🇺🇸🇬🇧"
+        url = "/"
+        weight = 6
 
 [params]
   author = "Joubert RedRat"
@@ -14,28 +75,6 @@ googleAnalytics = "G-82P3DH8MYV"
 
 [permalinks]
   "/" = "/:filename"
-
-[menu]
-  [[menu.main]]
-    name = "About"
-    url = "/"
-    weight = 1
-  [[menu.main]]
-    name = "Contents"
-    url = "/contents"
-    weight = 2
-  [[menu.main]]
-    name = "Resume"
-    url = "/resume"
-    weight = 3
-  [[menu.main]]
-    name = "Donations"
-    url = "/donations"
-    weight = 4
-  [[menu.main]]
-    name = "Contact"
-    url = "/contact"
-    weight = 5
 
 [markup.goldmark.renderer]
   unsafe = true

@@ -8,7 +8,7 @@ So, I work with technology as Software Engineer and/or DevOps, fortunately, in t
 
 But, unfortunately, a lot of people around the world doesn't have this opportunity, then I help with all things as possible, with donations or social jobs for example (I'm cosplayer, then I do social jobs using Capitain America or Beast from Beauty and the Beast, kids like so much ❤️).
 
-You can view more about this project in [Meu Mundo Mágico](https://www.instagram.com/meumundomagicomg/) (My World Mágic in english) instagram.
+You can view more about this project in [Meu Mundo Mágico](https://www.instagram.com/meumundomagicomg/) (My Magic World in english) instagram.
 
 ### Why this page then?
 
