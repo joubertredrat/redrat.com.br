@@ -14,6 +14,8 @@ Telegram: http://t.me/JoubertRedRat
 
 Telegram: https://telegram.me/JoubertRedRat
 
+LinkedIn: https://www.linkedin.com/in/joubertredrat/
+
 ----
 
 #### Outros perfis
