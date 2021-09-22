@@ -12,7 +12,7 @@ Today I'm heavy user of PHP and Golang, but, I'm open to all technologies, becau
 
 ### Community
 
-Today I'm one of organizer at [PHPMG](http://phpmg.com/) with other 2 organizers, but I love to interact with other IT communities, then I participate in [PHPSP](https://phpsp.org.br/), [PHPRio](http://php.rio/), [PHP com Rapadura](https://phpcomrapadura.org/), [PHPWomenBR](https://twitter.com/PHPWomenBR), DevOpsBH, GoBH, [Darkmira Tour PHP](https://php.darkmiratour.rocks/), and others.
+Today I'm one of evangelist at [PHPMG](http://phpmg.com/), but I love to interact with other IT communities, then I participate in [PHPSP](https://phpsp.org.br/), [PHPRio](http://php.rio/), [PHP com Rapadura](https://phpcomrapadura.org/), [PHPWomenBR](https://twitter.com/PHPWomenBR), DevOpsBH, GoBH, [Darkmira Tour PHP](https://php.darkmiratour.rocks/), and others.
 
 Always as possible, I'm in community, then this is my invite to you, always as possible, participate in IT communities too, you can help with participating in chat, open discuss, helping other participants, this help communities, but help you too, because these environments is full of knowledge.
 
@@ -26,4 +26,4 @@ RedRat is a mix of 3 explanations that complements itself.
 
 * Red translated to Brazilian portuguese is "vermelho", my favorite color.
 * Rat translated to Brazilian portuguese is "rato". Rat in medicine is used as object to medical tests and I used this as analogy with me, that like to test anything in IT, source, code, open source projects to study and generate knowledge and share with community.
-* RedRat together is word very similar with RedHat, the first Linux distro that I had access when I had 13 years old, on start of my career (One curiosity about this, sometimes I receive random resumes because some people thinks that I work at RedHat).
+* RedRat together is word very similar with Red Hat, the first Linux distro that I had access when I had 13 years old, on start of my career (One curiosity about this, sometimes I receive random resumes because some people thinks that I work at Red Hat).
