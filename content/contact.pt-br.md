@@ -16,6 +16,8 @@ Telegram: https://telegram.me/JoubertRedRat
 
 LinkedIn: https://www.linkedin.com/in/joubertredrat/
 
+Porém, vale lembrar que não trato de assuntos de empresas que eu esteja trabalhando nos contatos acima, neste caso, procure os canais de contato da empresa, se insistir, o contato será simplesmente ignorado.
+
 ----
 
 #### Outros perfis
