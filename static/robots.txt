@@ -1,4 +1,4 @@
 User-agent: *
-Disallow:
+Disallow: /assets/ph/*
 
-Sitemap: https://joubertredrat.github.io/sitemap.xml
+Sitemap: https://redrat.com.br/sitemap.xml
