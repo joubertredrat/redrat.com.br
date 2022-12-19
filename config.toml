@@ -3,7 +3,6 @@ languageCode = "en-us"
 title = "Joubert RedRat"
 theme = "researcher"
 enableEmoji = true
-googleAnalytics = "G-82P3DH8MYV"
 defaultContentLanguage = "en"
 
 [languages]
