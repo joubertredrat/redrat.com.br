@@ -11,7 +11,7 @@ Meu currículo público pode ser visualizado no LinkedIn nos links abaixo:
 
 Como alternativa ao LinkedIn, também é possível fazer o download da versão em PDF nos links abaixo:
 
-* Português: [curriculo_2022_pt-br.pdf](/assets/resume/curriculo_2022_pt-br.pdf)
-* Inglês: [resume_2022_en-us.pdf](/assets/resume/resume_2022_en-us.pdf)
+* Português: [curriculo_2023_pt-br.pdf](/assets/resume/curriculo_2023_pt-br.pdf)
+* Inglês: [resume_2023_en-us.pdf](/assets/resume/resume_2023_en-us.pdf)
 
 Eu recomendo usar meu currículo no LinkedIn pois eu mantenho ele mais atualizado do que aqui.
