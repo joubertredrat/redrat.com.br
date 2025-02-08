@@ -1,14 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Joubert RedRat - Sobre mim on Joubert RedRat</title><link>https://redrat.com.br/pt-br/</link><description>Recent content in Joubert RedRat - Sobre mim on Joubert RedRat</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://redrat.com.br/pt-br/index.xml" rel="self" type="application/rss+xml"/><item><title>Joubert RedRat - Contato</title><link>https://redrat.com.br/pt-br/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://redrat.com.br/pt-br/contact/</guid><description>Contato Para entrar em contato comigo, você pode usar as opções abaixo, prometo responder o mais rápido possível.
-Email: eu+site@redrat.com.br
-Twitter: https://twitter.com/joubertredrat
-Telegram: http://t.me/JoubertRedRat
-Telegram: https://telegram.me/JoubertRedRat
-LinkedIn: https://www.linkedin.com/in/joubertredrat/
-Porém, vale lembrar que não trato de assuntos de empresas que eu esteja trabalhando nos contatos acima, neste caso, procure os canais de contato da empresa, se insistir, o contato será simplesmente ignorado.
-Outros perfis E aqui outros perfis que eu tenho mundo afora (e relembrar para não registrar novamente).</description></item><item><title>Joubert RedRat - Conteúdos</title><link>https://redrat.com.br/pt-br/contents/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://redrat.com.br/pt-br/contents/</guid><description>Conteúdos Este site é estático, então não tem estrutura de posts aqui, mas como gosto de compartilhar conhecimento, sempre que possível eu posto artigos e palestras em outras plataformas.
-Posts Todos os meus posts e artigos estão disponíveis em Português e Inglês no Medium, mas tenho planos de postar os novos artigos no dev.to.
-Palestras Todos os slides das minhas palestras estão disponíveis no Speaker Deck.
-Brincando com comandos no Golang Golang Santa Catarina community - Remoto - Brasil</description></item><item><title>Joubert RedRat - Currículo</title><link>https://redrat.com.br/pt-br/resume/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://redrat.com.br/pt-br/resume/</guid><description>Currículo Meu currículo público pode ser visualizado no LinkedIn nos links abaixo:
-Português: https://www.linkedin.com/in/joubertredrat/ Inglês: https://www.linkedin.com/in/joubertredrat/?locale=en_US Como alternativa ao LinkedIn, também é possível fazer o download da versão em PDF nos links abaixo:
-Português: curriculo_pt-br.pdf Inglês: resume_en-us.pdf Eu recomendo usar meu currículo no LinkedIn pois eu mantenho ele mais atualizado do que aqui.</description></item><item><title>Joubert RedRat - Doações</title><link>https://redrat.com.br/pt-br/donations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://redrat.com.br/pt-br/donations/</guid><description>Doações Então, eu trabalho com tecnologia como Engenheiro de Software e/ou DevOps, felizmente, nesta área temos bons salários se for comparado com outras áreas e isso é bom.
-Mas, infelizmente muitas pessoas mundo afora não tem esta mesma oportunidade, então eu gosto de ajudar sempre que possível, seja com doações ou ações sociais por exemplo (Eu sou cosplayer, então eu faço ações sociais vestido de Capitão América ou a Fera da Bela e a Fera, as crianças gostam muito ❤️).</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Joubert RedRat - Sobre mim on Joubert RedRat</title><link>https://redrat.com.br/pt-br/</link><description>Recent content in Joubert RedRat - Sobre mim on Joubert RedRat</description><generator>Hugo</generator><language>pt-br</language><atom:link href="https://redrat.com.br/pt-br/index.xml" rel="self" type="application/rss+xml"/><item><title>Joubert RedRat - Contato</title><link>https://redrat.com.br/pt-br/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://redrat.com.br/pt-br/contact/</guid><description>&lt;h2 id="contato">Contato&lt;/h2>
+&lt;p>Para entrar em contato comigo, você pode usar as opções abaixo, prometo responder o mais rápido possível.&lt;/p>
+&lt;p>Email: &lt;a href="mailto:eu&amp;#43;site@redrat.com.br">eu+site@redrat.com.br&lt;/a>&lt;/p>
+&lt;p>Twitter: &lt;a href="https://twitter.com/joubertredrat">https://twitter.com/joubertredrat&lt;/a>&lt;/p>
+&lt;p>Telegram: &lt;a href="http://t.me/JoubertRedRat">http://t.me/JoubertRedRat&lt;/a>&lt;/p>
+&lt;p>Telegram: &lt;a href="https://telegram.me/JoubertRedRat">https://telegram.me/JoubertRedRat&lt;/a>&lt;/p>
+&lt;p>LinkedIn: &lt;a href="https://www.linkedin.com/in/joubertredrat/">https://www.linkedin.com/in/joubertredrat/&lt;/a>&lt;/p>
+&lt;p>Porém, vale lembrar que não trato de assuntos de empresas que eu esteja trabalhando nos contatos acima, neste caso, procure os canais de contato da empresa, se insistir, o contato será simplesmente ignorado.&lt;/p>
+&lt;hr>
+&lt;h4 id="outros-perfis">Outros perfis&lt;/h4>
+&lt;p>E aqui outros perfis que eu tenho mundo afora (e relembrar para não registrar novamente).&lt;/p></description></item><item><title>Joubert RedRat - Conteúdos</title><link>https://redrat.com.br/pt-br/contents/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://redrat.com.br/pt-br/contents/</guid><description>&lt;h2 id="conteúdos">Conteúdos&lt;/h2>
+&lt;p>Este site é estático, então não tem estrutura de posts aqui, mas como gosto de compartilhar conhecimento, sempre que possível eu posto artigos e palestras em outras plataformas.&lt;/p>
+&lt;h3 id="posts">Posts&lt;/h3>
+&lt;p>Todos os meus posts e artigos estão disponíveis em Português e Inglês no &lt;a href="https://medium.com/@joubertredrat">Medium&lt;/a>, mas tenho planos de postar os novos artigos no &lt;a href="https://dev.to/joubertredrat">dev.to&lt;/a>.&lt;/p>
+&lt;h3 id="palestras">Palestras&lt;/h3>
+&lt;p>Todos os slides das minhas palestras estão disponíveis no &lt;a href="https://speakerdeck.com/joubertredrat">Speaker Deck&lt;/a>.&lt;/p>
+&lt;h5 id="brincando-com-comandos-no-golang">Brincando com comandos no Golang&lt;/h5>
+&lt;p>Golang Santa Catarina community - Remoto - Brasil&lt;/p></description></item><item><title>Joubert RedRat - Currículo</title><link>https://redrat.com.br/pt-br/resume/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://redrat.com.br/pt-br/resume/</guid><description>&lt;h2 id="currículo">Currículo&lt;/h2>
+&lt;p>Meu currículo público pode ser visualizado no LinkedIn nos links abaixo:&lt;/p>
+&lt;ul>
+&lt;li>Português: &lt;a href="https://www.linkedin.com/in/joubertredrat/?locale=pt_BR">https://www.linkedin.com/in/joubertredrat/?locale=pt_BR&lt;/a>&lt;/li>
+&lt;li>Inglês: &lt;a href="https://www.linkedin.com/in/joubertredrat/">https://www.linkedin.com/in/joubertredrat/&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Como alternativa ao LinkedIn, também é possível fazer o download da versão em PDF nos links abaixo:&lt;/p>
+&lt;ul>
+&lt;li>Português: &lt;a href="https://redrat.com.br/assets/resume/curriculo_pt-br.pdf">curriculo_pt-br.pdf&lt;/a>&lt;/li>
+&lt;li>Inglês: &lt;a href="https://redrat.com.br/assets/resume/resume_short_en-us.pdf">Resumido&lt;/a>, &lt;a href="https://redrat.com.br/assets/resume/resume_en-us.pdf">Completo&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Eu recomendo usar meu currículo no LinkedIn pois eu mantenho ele mais atualizado do que aqui.&lt;/p></description></item><item><title>Joubert RedRat - Doações</title><link>https://redrat.com.br/pt-br/donations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://redrat.com.br/pt-br/donations/</guid><description>&lt;h2 id="doações">Doações&lt;/h2>
+&lt;p>Então, eu trabalho com tecnologia como Engenheiro de Software e/ou DevOps, felizmente, nesta área temos bons salários se for comparado com outras áreas e isso é bom.&lt;/p>
+&lt;p>Mas, infelizmente muitas pessoas mundo afora não tem esta mesma oportunidade, então eu gosto de ajudar sempre que possível, seja com doações ou ações sociais por exemplo (Eu sou cosplayer, então eu faço ações sociais vestido de Capitão América ou a Fera da Bela e a Fera, as crianças gostam muito ❤️).&lt;/p></description></item></channel></rss>
