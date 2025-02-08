@@ -70,7 +70,7 @@ defaultContentLanguage = "en"
   description = "Software Engineer, DevOps, Cosplayer, Speaker, Open-source community evangelist"
   favicon = "assets/favicon/favicon.ico"
   [params.style]
-    pageWidth = "850px"
+    pageWidth = "900px"
 
 [permalinks]
   "/" = "/:filename"
